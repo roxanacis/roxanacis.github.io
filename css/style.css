@@ -1,21 +1,32 @@
 .navbar {
-    background-color: rgba(35, 35, 35, 0.5)
+    background-color: rgba(0, 0, 0, 0.8)
 }
 
 .carousel-caption {
-    background-color: rgba(35, 35, 35, 0.5)
+    background-color: rgba(0, 0, 0, 0.8)
 }
 
-.navbar-brand:hover {
-    color: rgba(0, 0, 0, .5);
+.navbar .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.25);
+
 }
 
 .navbar .navbar-brand {
+    font-family: 'Oswald', sans-serif;
     color: white;
+    font-size: 180%;
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    border-color: white;
 }
 
 .navbar .navbar-nav .nav-link {
     color: white;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.25);
 }
 
 
